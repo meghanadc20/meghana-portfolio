@@ -1,0 +1,23 @@
+.wrap { max-width: 640px; margin-bottom: clamp(36px, 5vw, 56px); }
+.center { margin-left: auto; margin-right: auto; text-align: center; }
+.label {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 14px;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+.label::before { content: ''; width: 24px; height: 1px; background: currentColor; opacity: 0.7; }
+.center .label::before { display: none; }
+.title {
+  font-family: var(--font-serif);
+  font-weight: 400;
+  font-size: clamp(2rem, 4.2vw, 2.9rem);
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+}
+.subtitle { margin-top: 14px; color: var(--text-2); font-size: 1.05rem; }

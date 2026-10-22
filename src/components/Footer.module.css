@@ -1,0 +1,23 @@
+.footer { border-top: 1px solid var(--border); background: var(--bg); padding: 40px 0; }
+.inner { display: flex; justify-content: space-between; align-items: center; gap: 24px; flex-wrap: wrap; }
+.logo { font-family: var(--font-serif); font-size: 1.4rem; }
+.logo span { color: var(--accent); }
+.credit { margin-top: 6px; color: var(--text-2); font-size: 0.92rem; }
+.copy { color: var(--text-2); font-size: 0.82rem; opacity: 0.8; }
+.right { display: flex; align-items: center; gap: 20px; flex-wrap: wrap; }
+.top {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 42px;
+  padding: 0 14px;
+  font-size: 0.88rem;
+  color: var(--text-2);
+  text-decoration: none;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  transition: color 0.2s var(--ease), border-color 0.2s var(--ease);
+}
+.top:hover { color: var(--accent-2); border-color: var(--accent); }
+.top svg { transition: transform 0.2s var(--ease); }
+.top:hover svg { transform: translateY(-2px); }

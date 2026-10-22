@@ -1,0 +1,52 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: clamp(32px, 6vw, 72px);
+  align-items: start;
+}
+.bio p { color: var(--text-2); font-size: 1.04rem; }
+.bio p + p { margin-top: 18px; }
+.drives {
+  margin-top: 32px;
+  padding: 22px 24px;
+  border-left: 2px solid var(--accent);
+  background: linear-gradient(90deg, var(--accent-soft), transparent 80%);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+}
+.drives h3 { font-family: var(--font-serif); font-weight: 400; font-size: 1.35rem; margin-bottom: 8px; }
+.bio .drives p { margin: 0; }
+
+.cards { display: grid; gap: 14px; }
+.card {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  padding: 20px 22px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  transition: border-color 0.25s var(--ease);
+}
+.card:hover { border-color: rgba(184, 164, 232, 0.45); }
+.icon {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  color: var(--accent);
+  background: var(--accent-soft);
+}
+.cardLabel {
+  font-family: var(--font-mono);
+  font-size: 0.74rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-2);
+}
+.cardValue { margin-top: 2px; font-weight: 600; line-height: 1.5; }
+
+@media (max-width: 900px) {
+  .grid { grid-template-columns: 1fr; }
+}

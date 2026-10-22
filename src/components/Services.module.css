@@ -1,0 +1,15 @@
+.grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+.card {
+  padding: 26px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  transition: border-color 0.25s var(--ease), background-color 0.25s var(--ease);
+}
+.card:hover { border-color: rgba(184, 164, 232, 0.45); background: #23253a; }
+.icon { color: var(--accent); margin-bottom: 18px; }
+.title { font-size: 1.04rem; font-weight: 600; margin-bottom: 8px; }
+.text { color: var(--text-2); font-size: 0.94rem; }
+
+@media (max-width: 980px) { .grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 600px) { .grid { grid-template-columns: 1fr; } .card { padding: 22px; } }
