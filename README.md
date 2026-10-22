@@ -5,6 +5,8 @@ Dark navy and lavender theme, DM Serif Display headings, Inter body text and
 JetBrains Mono labels (all self-hosted through `@fontsource`, so no external
 font requests).
 
+Live - https://meghanadc-portfolio.netlify.app/
+
 ## Quick start
 
 Requires Node.js 18 or newer.
@@ -47,6 +49,4 @@ portfolio/
 
 
 
-  - NGO platform: React + Vite frontend; FastAPI, SQLAlchemy, PostgreSQL (with GeoAlchemy2 for locations) backend. Supabase is listed as given in the brief; the code reads a generic `DATABASE_URL`, so Supabase is presumably the hosted Postgres.
-  - MedChain: Solidity contract (Ganache), Ethers.js and MetaMask, Node.js + Express API, MongoDB with Mongoose, Supabase Storage for encrypted files, plain HTML/CSS/JS frontend.
-  - Nova assistant: Amazon Nova 2 Lite through Amazon Bedrock, Python Flask backend with boto3, HTML/CSS/JS frontend.
+  
