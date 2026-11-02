@@ -30,7 +30,7 @@ export const projects = [
     // From the repository README and package.json.
     stack: ['Solidity', 'Ethers.js', 'Node.js', 'Express.js', 'MongoDB', 'Supabase Storage', 'JavaScript', 'HTML & CSS'],
     github: 'https://github.com/meghanadc20/blockchain-secure-medical-records',
-    demo: null,
+    demo: 'https://medchain-je1b.onrender.com/',
     image: {
       src: medchainShot,
       alt: 'MedChain landing page: "Your medical records, shared only with the doctors you choose", with patient and doctor registration buttons',
