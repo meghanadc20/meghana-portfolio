@@ -46,7 +46,7 @@ export const projects = [
     // From the repository README and app.py.
     stack: ['Amazon Nova 2 Lite', 'Amazon Bedrock', 'Python', 'Flask', 'boto3', 'JavaScript'],
     github: 'https://github.com/meghanadc20/nova-smart-knowledge-assistant',
-    demo: null,
+    demo: 'https://nova-smart-knowledge-assistant.netlify.app/',
     image: {
       src: novaShot,
       alt: 'Nova Smart Knowledge Assistant landing page: "Powered by Amazon Nova on AWS Bedrock", with an "Ask something..." question box and an Ask Nova button',
