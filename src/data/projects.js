@@ -1,5 +1,6 @@
 import ngoShot from '../assets/projects/ngo-assistance-platform.jpg'
 import medchainShot from '../assets/projects/medchain-landing.jpg'
+import novaShot from '../assets/projects/nova-landing.jpg'
 
 // Each project:
 //   image   - { src, alt, caption } for a real screenshot, or null to show
@@ -46,12 +47,10 @@ export const projects = [
     stack: ['Amazon Nova 2 Lite', 'Amazon Bedrock', 'Python', 'Flask', 'boto3', 'JavaScript'],
     github: 'https://github.com/meghanadc20/nova-smart-knowledge-assistant',
     demo: null,
-    image: null,
-    // Request flow described in the repository README.
-    visual: {
-      type: 'flow',
-      label: 'How it works',
-      steps: ['Web interface', 'Flask backend', 'Amazon Bedrock', 'Nova 2 Lite'],
+    image: {
+      src: novaShot,
+      alt: 'Nova Smart Knowledge Assistant landing page: "Powered by Amazon Nova on AWS Bedrock", with an "Ask something..." question box and an Ask Nova button',
+      caption: 'Landing page',
     },
   },
 ]
